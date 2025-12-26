@@ -1,0 +1,110 @@
+# ----------------------------------------
+# .gitignore — Project wide common ignores
+# ----------------------------------------
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+pip-wheel-metadata/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swo
+*.swp
+*~
+*.iml
+.vs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment / local settings
+.env
+.env.local
+.env.*.local
+local_settings.py
+instance/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Project-specific outputs
+outputs/
+reports/
+crewai_results/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.hypothesis/
+
+# Type checking / linter caches
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+.cache/
+
+# Build tool lock / metadata files
+poetry.lock
+Pipfile.lock
+pipfile.lock
+
+# Databases
+*.sqlite3
+*.db
+*.sqlite
+
+# Misc
+*.lock
+
+# uv
+.uv/
+uv.lock
