@@ -10,6 +10,9 @@ __pycache__/
 # C extensions
 *.so
 
+# python
+.ipynb_checkpoints
+
 # Distribution / packaging
 build/
 dist/
@@ -29,7 +32,6 @@ pip-wheel-metadata/
 MANIFEST
 
 # Virtual Environments
-.venv/
 venv/
 ENV/
 env/
@@ -50,6 +52,7 @@ env/
 Thumbs.db
 
 # Environment / local settings
+.venv
 .env
 .env.local
 .env.*.local
