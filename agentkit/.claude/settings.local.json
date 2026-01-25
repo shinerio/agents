@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s)",
+      "Bash(dir)",
+      "mcp__mcp-toolset__mcp_use_tool"
+    ]
+  }
+}
